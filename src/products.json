@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Sporting Goods",
+    "price": "49,99€",
+    "stocked": true,
+    "name": "Football"
+  },
+  {
+    "category": "Sporting Goods",
+    "price": "30,99€",
+    "stocked": true,
+    "name": "Soccer"
+  },
+  {
+    "category": "Electonics",
+    "price": "449,99€",
+    "stocked": false,
+    "name": "TV"
+  },
+  {
+    "category": "Electonics",
+    "price": "4429,99€",
+    "stocked": true,
+    "name": "Flat-TV"
+  }
+]
