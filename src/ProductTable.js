@@ -3,11 +3,19 @@ import ProductCategoryRow from './ProductCategoryRow'
 import { ProductRow } from './ProductRow'
 
 export const ProductTable = (props) => {
-  const { products } = props
+  const { filterText, inStockOnly, products } = props
   const rows = []
   let lastCategory = null
 
   products.forEach((product) => {
+    if (product.name.indexOf(filterText) === -1) {
+      return
+    }
+
+    if (inStockOnly && !product.stocked) {
+      return
+    }
+
     if (product.category !== lastCategory) {
       rows.push(<ProductCategoryRow product={product} key={product.category} />)
     }

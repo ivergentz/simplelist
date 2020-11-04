@@ -12,13 +12,13 @@
     "name": "Soccer"
   },
   {
-    "category": "Electonics",
+    "category": "Electronics",
     "price": "449,99€",
     "stocked": false,
     "name": "TV"
   },
   {
-    "category": "Electonics",
+    "category": "Electronics",
     "price": "4429,99€",
     "stocked": true,
     "name": "Flat-TV"
